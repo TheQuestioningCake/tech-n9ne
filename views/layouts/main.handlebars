@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Of Tech</title>
-    <link rel="stylesheet" href="/stylesheets/style.css">
-</head>
+    <link rel="stylesheet" href="/css/styles.css">
+    </head>
 
 <body>
     <div class="wrapper">
@@ -16,11 +16,11 @@
             </h1>
             <nav>
                 {{#if loggedIn}}
-                <a href="/">Home</a>
-                <a href="/dashboard">dashboard</a>
-                <button id="logout" class="btn-no-style">logout</button>
+                <a href="/">HOME</a>
+                <a href="/dashboard">DASHBOARD</a>
+                <button id="logout" class="btn-no-style">LOGOUT</button>
                 {{else}}
-                <a href="/login">login</a>
+                <a href="/login">LOGIN</a>
                 {{/if}}
             </nav>
         </header>
@@ -32,7 +32,7 @@
     </div>
 
     {{#if loggedIn}}
-    <script src="/javascript/logout.js"></script>
+    <script src="/js/logout.js"></script>
     {{/if}}
 </body>
 

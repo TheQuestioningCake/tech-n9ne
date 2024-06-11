@@ -1,0 +1,18 @@
+const router = require("express").Router();
+
+const apiRoutes = require("./api");
+const homeRoutes = require("./home-routes");
+const dashboardRoutes = require("./dashboard-routes");
+
+
+router.use("/", homeRoutes);
+router.use("/dashboard", dashboardRoutes);
+router.use("/api", apiRoutes);
+
+// // if we make a request to any endpoint that doesn't exist
+// router.use((req, res) => {
+//     // error message indicates requested incorrect resource
+//     res.status(404).end();
+// });
+
+module.exports = router;
