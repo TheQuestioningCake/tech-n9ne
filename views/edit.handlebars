@@ -5,19 +5,19 @@
   </h2>
   <form class="edit-post-form">
     <div>
-      <h3>Title</h3>
+      <h3>Post Title</h3>
       <input name="post-title" type="text" value="{{post.title}}" />
       </br>
-      <h3>Content</h3>
-      <input name="post-content" type="text" value="{{post.post_content}}" />
+      <h3>Post</h3>
+      <textarea name="post-content" type="text" value="{{post.post_content}}"></textarea>
     </div>
     <div>
       Posted by you on {{format_date post.createdAt}}
       |
       <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
     </div>
-    <button type="submit">Save post</button>
-    <button type="button" class="delete-post-btn">Delete post</button>
+    <button type="submit">SAVE POST</button>
+    <button type="button" class="delete-post-btn">DELETE POST</button>
   </form>
 </article>
 
