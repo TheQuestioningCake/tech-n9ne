@@ -1,17 +1,16 @@
-async function commentFormHandler(event) {
-    // event.preventDefault();
+async function commentFormHandler(event) {npm
     console.log(event)
   
     const comment_text = document
       .querySelector('textarea[name="comment-body"]')
       .value.trim();
   
-    // from URL
+    
     const post_id = window.location.toString().split("/")[
       window.location.toString().split("/").length - 1
     ];
   
-  //   wrap in if statement to prevent empty submissions
+  
     if (comment_text) {
       const response = await fetch("/api/comments", {
         method: "POST",
