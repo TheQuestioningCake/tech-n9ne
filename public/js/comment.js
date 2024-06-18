@@ -1,4 +1,4 @@
-async function commentFormHandler(event) {npm
+async function commentFormHandler(event) {
     console.log(event)
   
     const comment_text = document
