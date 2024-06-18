@@ -15,9 +15,11 @@ A class project
 ## Contributors
 If someone wants to contribute to this project they can email me or message me  directly on github
 
-## Link To Site
+## Screenshot
 ![image](https://github.com/TheQuestioningCake/tech-n9ne/assets/157550672/599c9362-4870-4594-bccf-f250feac8573)
 
+## Link To Deployed Site
+https://blogoftech-678be029b3e5.herokuapp.com/
 
 ## Questions
 If you have any questions contact me at perrywayne39@gmail.com or you can reach me at www.github.com/TheQuestioningCake
